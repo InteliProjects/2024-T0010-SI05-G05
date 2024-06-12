@@ -1,0 +1,149 @@
+.main {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 6rem;
+}
+
+.session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 2rem;
+
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        border-radius: 0.6rem;
+        border: none;
+        background-color: rgb(225, 225, 225);
+        padding-left: 0.5rem;
+        width: 25rem;
+        height: 4rem;
+    }
+}
+
+.confirm {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 4rem;
+    background-color: rgb(102, 102, 255);
+    border: none;
+    border-radius: 0.6rem;
+    color: white;
+
+    p {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+.item:hover {
+    background-color: rgb(39, 39, 255);
+    color: white;
+}
+
+// =======================================
+
+.transaction {
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    border-radius: 0.6rem;
+    gap: 3rem;
+    align-items: center;
+    padding: 1rem;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin: 0.1rem;
+    }
+}
+
+.manage {
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.accept {
+    background-color: rgb(76, 76, 76);
+    border: none;
+    border-radius: 0.8rem;
+    color: white;
+    width: 9rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-size: 1rem;
+        font-weight: 600;
+    
+    }
+}
+
+.accept:hover {
+    background-color: rgb(40, 40, 40);
+
+}
+
+.decline {
+    background-color: rgb(255, 94, 25);
+    border: none;
+    border-radius: 6rem;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.decline:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.cancel {
+    width: 4rem;
+}
+
+.ok {
+    width: 4rem;
+}
+
+.name {
+    font-weight: 550;
+    color: green;
+}

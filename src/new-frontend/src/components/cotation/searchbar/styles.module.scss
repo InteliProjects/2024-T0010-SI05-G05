@@ -1,0 +1,30 @@
+.formulario {
+    background-color: #D9D9D9;
+    border-radius: 2rem;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    width: 30rem;
+    margin-top: 1rem;
+
+    &:focus {
+        outline: none;
+        background-color: #c2c2c2;
+    }
+}
+
+.lista {
+    background-color: #c2c2c2;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    width: 28.2rem;
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+}
+
+.button {
+    background-color: #c2c2c2;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+pandas
+fastapi
+web3
+pytest
+uvicorn[standard]
+psycopg2-binary

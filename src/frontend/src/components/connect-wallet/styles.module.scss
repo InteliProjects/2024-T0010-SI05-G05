@@ -1,0 +1,113 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    h1 {
+        font-size: 3rem;
+    
+    }
+
+}
+
+.title {
+    .name {
+        color: rgb(255, 94, 25);
+    }
+}
+
+.picture {
+
+    display: flex;
+    align-items: center;
+    width: 13%;
+
+    .logo {
+        width: 100%;
+    }
+}
+
+.subtitle {
+    display: flex;
+
+    h2 {
+        font-size: 2rem;
+    }
+
+}
+
+.connectWallet {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+    .connectButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 12rem;
+        background-color: rgb(102, 102, 255);
+        border: none;
+        border-radius: 0.6rem;
+        color: white;
+
+        a {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+
+    .connectButton:hover {
+        background-color: rgb(39, 39, 255);
+        color: white;
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        border-radius: 0.6rem;
+        border: none;
+        background-color: rgb(225, 225, 225);
+        padding-left: 0.5rem;
+    }
+
+    .form:hover {
+        background-color: rgb(200, 200, 200);
+    }
+
+    .walletButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 12rem;
+        background-color: rgb(60, 128, 255);
+        border: none;
+        border-radius: 0.6rem;
+        color: white;
+        height: 4rem;
+
+        a {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .walletButton:hover {
+        background-color: rgb(24, 103, 251);
+        color: white;
+    }
+}
+

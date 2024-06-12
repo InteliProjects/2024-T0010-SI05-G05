@@ -1,0 +1,22 @@
+[
+  {"id": 1, "name": "Cadeiras", "meanPrice": "R$150.00"},
+  {"id": 2, "name": "Canetas", "meanPrice": "R$2.00"},
+  {"id": 3, "name": "Papel", "meanPrice": "R$10.00"},
+  {"id": 4, "name": "Computadores", "meanPrice": "R$2500.00"},
+  {"id": 5, "name": "Impressoras", "meanPrice": "R$800.00"},
+  {"id": 6, "name": "Mesas", "meanPrice": "R$300.00"},
+  {"id": 7, "name": "Telefones", "meanPrice": "R$500.00"},
+  {"id": 8, "name": "Máquinas de café", "meanPrice": "R$350.00"},
+  {"id": 9, "name": "Fones de ouvido", "meanPrice": "R$200.00"},
+  {"id": 10, "name": "Monitores", "meanPrice": "R$700.00"},
+  {"id": 11, "name": "Teclados", "meanPrice": "R$100.00"},
+  {"id": 12, "name": "Mouses", "meanPrice": "R$50.00"},
+  {"id": 13, "name": "Notebooks", "meanPrice": "R$3000.00"},
+  {"id": 14, "name": "Projetores", "meanPrice": "R$1500.00"},
+  {"id": 15, "name": "Softwares", "meanPrice": "R$500.00"},
+  {"id": 16, "name": "Servidores", "meanPrice": "R$10000.00"},
+  {"id": 17, "name": "Roteadores", "meanPrice": "R$250.00"},
+  {"id": 18, "name": "Switches", "meanPrice": "R$400.00"},
+  {"id": 19, "name": "Armários", "meanPrice": "R$600.00"},
+  {"id": 20, "name": "Ar-condicionado", "meanPrice": "R$1200.00"}
+]

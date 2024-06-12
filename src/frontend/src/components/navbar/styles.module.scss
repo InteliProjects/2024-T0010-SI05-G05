@@ -1,0 +1,41 @@
+.body {
+    display: flex;
+    background-color: rgb(255, 94, 25);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    height: 5rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+
+    h2 {
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    a:hover {
+        color: rgb(181, 36, 0);
+    }
+}
